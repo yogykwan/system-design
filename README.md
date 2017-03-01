@@ -7,4 +7,9 @@ Some tiny exercises for system design from JIUZHANG.
 
 ## 2 - Database & Consistent Hashing
 - consistent-hashing
+- memcache
+- consistent-hashing-ii
+- mini-cassandra
+- lfu-cache
+- lru-cache
 
