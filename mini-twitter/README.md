@@ -1,12 +1,12 @@
-实现一个迷你的推特，支持下列几种方法
-1.postTweet(user_id, tweet_text). 发布一条推特.
-2.getTimeline(user_id). 获得给定用户最新发布的十条推特，按照发布时间从最近的到之前排序
-3.getNewsFeed(user_id). 获得给定用户的朋友或者他自己发布的最新十条推特，从发布时间最近到之前排序
-4.follow(from_user_id, to_user_id). from_user_id 关注 to_user_id.
-5.unfollow(from_user_id, to_user_id). from_user_id 取消关注 to_user_id.
+1. postTweet(user_id, tweet_text). Post a tweet.
+2. getTimeline(user_id). Get the given user's most recently 10 tweets posted by himself, order by timestamp from most recent to least recent.
+3. getNewsFeed(user_id). Get the given user's most recently 10 tweets in his news feed (posted by his friends and himself). Order by timestamp from most recent to least recent.
+4. follow(from_user_id, to_user_id). from_user_id followed to_user_id.
+5. unfollow(from_user_id, to_user_id). from_user_id unfollowed to to_user_id.
 
 ---
 
+```
 postTweet(1, "LintCode is Good!!!")
 >> 1
 getNewsFeed(1)
@@ -19,4 +19,4 @@ getNewsFeed(2)
 unfollow(2, 1)
 getNewsFeed(2)
 >> []
-
+```
