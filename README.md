@@ -13,3 +13,11 @@ Some tiny exercises for system design from JIUZHANG.
 - lfu-cache
 - lru-cache
 
+## 3 - Web Crawler & Google Suggestion
+- inverted-index
+- trie service
+- url parser
+- implement trie
+- trie serialization
+- typeahead
+- webpage crawler
