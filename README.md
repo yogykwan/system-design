@@ -21,3 +21,7 @@ Some tiny exercises for system design from JIUZHANG.
 - trie serialization
 - typeahead
 - webpage crawler
+
+## 4 - Distributed File System
+- gfs-client
+- heart-beat
