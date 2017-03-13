@@ -65,6 +65,9 @@ public:
         if (root->next) {
             key_pa[root->next->key] = root;
         }
+        if (cnt_last[cur->cnt] == cur) {
+            cnt_last.erase(cur->cnt);
+        }
         delete cur;
     }
 
@@ -107,4 +110,3 @@ private:
     map<int, Node*> key_pa;
     map<int, Node*> cnt_last;
 };
-
