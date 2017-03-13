@@ -15,13 +15,26 @@ Some tiny exercises for system design from JIUZHANG.
 
 ## 3 - Web Crawler & Google Suggestion
 - inverted-index
-- trie service
-- url parser
-- implement trie
-- trie serialization
+- trie-service
+- url-parser
+- implement-trie
+- trie-serialization
 - typeahead
-- webpage crawler
+- webpage-crawler
 
 ## 4 - Distributed File System
 - gfs-client
 - heart-beat
+
+## 5 - Web System
+- tiny-url
+- tiny-url-ii
+- load-balancer
+- lfu-cache
+- lru-cache
+
+# 6 - Map Reduce
+- word-count
+- top-k-frequent-words
+- inverted-index
+- anagram
