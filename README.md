@@ -38,3 +38,13 @@ Some tiny exercises for system design from JIUZHANG.
 - top-k-frequent-words
 - inverted-index
 - anagram
+
+# 7 - Location Based Service
+- geohash
+- geohash-ii
+- mini-uber
+- mini-yelp
+
+# 8 - Bigtable
+- standard-bloom-filter
+- counting-bloom-filter
