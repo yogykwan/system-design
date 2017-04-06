@@ -48,3 +48,7 @@ Some tiny exercises for system design from JIUZHANG.
 # 8 - Bigtable
 - standard-bloom-filter
 - counting-bloom-filter
+
+# 9 - Message System & Rate Limiter
+- web-logger
+- rate-limiter
