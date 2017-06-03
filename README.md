@@ -32,23 +32,27 @@ Some tiny exercises for system design from JIUZHANG.
 - load-balancer
 - lfu-cache
 - lru-cache
+- top-k-frequent-words
+- top-k-frequent-words-ii
 
-# 6 - Map Reduce
+## 6 - Map Reduce
 - word-count
 - top-k-frequent-words
 - inverted-index
 - anagram
+- n-gram
+- sort-integers
 
-# 7 - Location Based Service
+## 7 - Location Based Service
 - geohash
 - geohash-ii
 - mini-uber
 - mini-yelp
 
-# 8 - Bigtable
+## 8 - Bigtable
 - standard-bloom-filter
 - counting-bloom-filter
 
-# 9 - Message System & Rate Limiter
+## 9 - Message System & Rate Limiter
 - web-logger
 - rate-limiter
