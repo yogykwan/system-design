@@ -25,8 +25,8 @@ class HashHeap:
             index = self._siftup(index)
             self._siftdown(index)
 
-def has(self, key):
-    return key in self.hash
+    def has(self, key):
+        return key in self.hash
     
     def size(self):
         return self.heap[0]
@@ -84,10 +84,10 @@ class TopK:
         if self.hh.size() > self.k:
             self.hh.pop();
 
-# @return {str[]} the current top k frequent word
-def topk(self):
-    # Write your code here
-    ans = self.hh.heap[1:]
-        ans.sort(cmp=cmp_words)
-        strs =  [i[0] for i in ans]
-        return strs
+    # @return {str[]} the current top k frequent word
+    def topk(self):
+        # Write your code here
+        ans = self.hh.heap[1:]
+            ans.sort(cmp=cmp_words)
+            strs =  [i[0] for i in ans]
+            return strs

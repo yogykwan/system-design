@@ -9,12 +9,12 @@ class NGram:
             yield string[i: i + n], 1
 
 
-# @param key is from mapper
-# @param values is a set of value with the same key
-def reducer(self, key, values):
-    # Write your code here
-    # Please use 'yield key, value' here
-    sum = 0
+    # @param key is from mapper
+    # @param values is a set of value with the same key
+    def reducer(self, key, values):
+        # Write your code here
+        # Please use 'yield key, value' here
+        sum = 0
         for v in values:
             sum += v
-    yield key, sum
+        yield key, sum
